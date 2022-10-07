@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ReaderNFC</string>
+    <string name="receive">Receive</string>
+    <string name="mark1x">235</string>
+    <string name="mark1y">1700</string>
+    <string name="mark2x">830</string>
+    <string name="mark2y">1000</string>
+    <string name="mark3x">830</string>
+    <string name="mark3y">1700</string>
+    <string name="mark4x">450</string>
+    <string name="mark4y">1000</string>
+    <string name="mark5x">235</string>
+    <string name="mark5y">600</string>
+</resources>

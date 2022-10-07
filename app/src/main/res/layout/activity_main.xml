@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcum"
+
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textReceiveNFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/receive"
+        android:textColor="#D84747"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1080px"
+        android:layout_height="2139px"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/green"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="142dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/green"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="142dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/green"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="386dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/green"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="270dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:backgroundTint="@color/green"
+        android:background="@drawable/round_button"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="194dp"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/personimage"
+        android:layout_width="53dp"
+        android:layout_height="48dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/person"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="357dp"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/pointerimage"
+        android:layout_width="53dp"
+        android:layout_height="48dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/pointer"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="292dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/butsearch"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:background="@drawable/search_but"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="682dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/butlocate"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:background="@drawable/crosshair_but"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="682dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/butmenu"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:background="@drawable/options_but"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="682dp"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/bottombuttons"
+        android:layout_width="360dp"
+        android:layout_height="67dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/bottom_buttons"
+        tools:layout_editor_absoluteX="dp"
+        tools:layout_editor_absoluteY="446dp"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
